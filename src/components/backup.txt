@@ -1,0 +1,18 @@
+                <InputLabel htmlFor="demo-simple-select-label">Hardware type</InputLabel>
+                <Select
+                    native
+                    value={type}
+                    onChange={(e) => setType(e.target.value)} value={type}
+                    inputProps={{
+                        name: 'type',
+                        id: 'native-simple',
+                    }}
+                    >
+                    <option aria-label="None" value="" />
+                    <option value={'Cpu'}>Cpu</option>
+                    <option value={'Gpu'}>Gpu</option>
+                    <option value={'motherboard'}>Motherboard</option>
+                    <option value={'powersupply'}>Powersupply</option>
+                    <option value={'ram'}>Ram</option>
+                    <option value={'storage'}>Storage</option>
+                    </Select>

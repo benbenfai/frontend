@@ -1,0 +1,44 @@
+application/x-www-form-urlencoded
+
+      const dataadd = () => {
+
+        formData.append('type',type)
+        formData.append('name',name)
+        formData.append('description',description)
+        formData.append('price',price)
+        formData.append('icon',icon)
+        if (type='cpu'){
+          formData.append('tdp',tdp)
+          formData.append('socket',socket)
+          formData.append('ramtype',ramtype)
+          setUrl('http://localhost:5000/hardware/addcpu')
+        }
+        if (type='gpu'){
+          formData.append('tdp',tdp)
+          formData.append('vram',vram)
+          setUrl('http://localhost:5000/hardware/')
+        }
+        if (type='motherboard'){
+          formData.append('socket',socket)
+          formData.append('ramtype',ramtype)
+          formData.append('m2',m2)
+          setUrl('')
+        }
+        if (type='powersupply'){
+          formData.append('pcapacity',pcapacity)
+          formData.append('bronze',bronze)
+          setUrl('')
+        }
+        if (type='ram'){
+          formData.append('capacity',capacity)
+          formData.append('frequency',frequency)
+          formData.append('ramtype',ramtype)
+          setUrl('')
+        }
+        if (type='cpu'){
+          formData.append('tdp',tdp)
+          formData.append('capacity',scapacity)
+          formData.append('ramtype',ramtype)
+          setUrl('')
+        }
+      }
