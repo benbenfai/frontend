@@ -1,3 +1,10 @@
+A project using Redux makes state control, such as user state and transmit sate
+
+material UI, material UI table, bootstrap using for UI and input validate
+these do not include the node.js packages, so it will not work directly.
+(as it not allow upload to Github directly if it has not compiled.)
+(follow the package.json and install the package through npm install)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
