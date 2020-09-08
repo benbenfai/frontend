@@ -8,6 +8,8 @@ these do not include the node.js packages, so it will not work directly.
 -material UI
 -Boostrap
 -Redux: state control
+-thunk
+-fetch api
 -react-router
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
