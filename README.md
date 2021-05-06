@@ -6,7 +6,5 @@ Link: https://fypweb.herokuapp.com/
 
 -material UI
 -Boostrap
--Redux: state control
--thunk
 -fetch api
 -react-router
